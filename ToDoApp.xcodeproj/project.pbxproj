@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		62F6E8D32661999000D5B8AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6E8D22661999000D5B8AD /* AppDelegate.swift */; };
 		62F6E8D52661999000D5B8AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6E8D42661999000D5B8AD /* SceneDelegate.swift */; };
-		62F6E8D72661999000D5B8AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6E8D62661999000D5B8AD /* ViewController.swift */; };
 		62F6E8DA2661999000D5B8AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F6E8D82661999000D5B8AD /* Main.storyboard */; };
 		62F6E8DC2661999500D5B8AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F6E8DB2661999500D5B8AD /* Assets.xcassets */; };
 		62F6E8DF2661999500D5B8AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F6E8DD2661999500D5B8AD /* LaunchScreen.storyboard */; };
+		62F6E8E726619F0200D5B8AD /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6E8E626619F0200D5B8AD /* ToDoViewController.swift */; };
+		62F6E8E92661A4B100D5B8AD /* ListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6E8E82661A4B100D5B8AD /* ListItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		62F6E8CF2661999000D5B8AD /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62F6E8D22661999000D5B8AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62F6E8D42661999000D5B8AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		62F6E8D62661999000D5B8AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		62F6E8D92661999000D5B8AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62F6E8DB2661999500D5B8AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62F6E8DE2661999500D5B8AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62F6E8E02661999500D5B8AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F6E8E626619F0200D5B8AD /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		62F6E8E82661A4B100D5B8AD /* ListItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				62F6E8D22661999000D5B8AD /* AppDelegate.swift */,
 				62F6E8D42661999000D5B8AD /* SceneDelegate.swift */,
-				62F6E8D62661999000D5B8AD /* ViewController.swift */,
+				62F6E8E626619F0200D5B8AD /* ToDoViewController.swift */,
+				62F6E8E82661A4B100D5B8AD /* ListItemTableViewCell.swift */,
 				62F6E8D82661999000D5B8AD /* Main.storyboard */,
 				62F6E8DB2661999500D5B8AD /* Assets.xcassets */,
 				62F6E8DD2661999500D5B8AD /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62F6E8D72661999000D5B8AD /* ViewController.swift in Sources */,
+				62F6E8E92661A4B100D5B8AD /* ListItemTableViewCell.swift in Sources */,
 				62F6E8D32661999000D5B8AD /* AppDelegate.swift in Sources */,
+				62F6E8E726619F0200D5B8AD /* ToDoViewController.swift in Sources */,
 				62F6E8D52661999000D5B8AD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

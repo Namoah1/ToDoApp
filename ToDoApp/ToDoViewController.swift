@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ToDoViewController.swift
 //  ToDoApp
 //
 //  Created by Nana Adwoa Odeibea Amoah on 5/28/21.
@@ -8,14 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ToDoViewController: UIViewController {
 
-    //test
+    @IBOutlet weak var listTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
+        
     }
+    
 
 
 }
-
