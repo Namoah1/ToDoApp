@@ -13,6 +13,7 @@ class ListItemTableViewCell: UITableViewCell {
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var checkButton: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -25,9 +26,9 @@ class ListItemTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    @IBAction func itemButton(_ sender: Any) {
+
         
     }
     
 
-}
+
